@@ -1,0 +1,48 @@
+#container {
+  background: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80")
+    no-repeat center center fixed;
+  display: table;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  overflow: hidden;
+}
+#navbar {
+  background-color: rgba(104, 101, 101, 0) !important;
+}
+.input-properties {
+  
+  background-color: rgba(245, 245, 245, 0.4) !important;
+}
+.input-button-properties2 {
+  
+  background-color: rgba(197, 192, 192, 0.4) !important;
+}
+#input-wrapper {
+  background-color: rgba(245, 245, 245, 0.4) !important;
+}
+.input-properties:focus {
+  outline: none !important;
+}
+.input-properties::placeholder {
+ color:white !important;
+}
+.btn{
+  outline: none;
+  border: none !important;
+}
+
+.btn:active, .btn:focus{
+  border: none;
+}
+.card {
+  background-color: rgba(255,255,255, 0.4) !important;
+}
+.card-img-top {
+    width: 100%;
+    height: 35vh;
+    object-fit: fit;
+}
